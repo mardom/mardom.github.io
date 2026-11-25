@@ -1,6 +1,13 @@
 {
   "teaching": [
     {
+      "title": "Foundations of Machine Learning in Python",
+      "level": "Postgraduate Course (Universidad de La Serena, Chile)",
+      "hours": "Graduate Course",
+      "period": "2026 – Present",
+      "details": "Professor in charge of the postgraduate course on Foundations of Machine Learning in Python at Universidad de La Serena (ULS), Chile."
+    },
+    {
       "title": "Astrometry (Astrometría)",
       "level": "Undergraduate (Astronomy, FaMAF–UNC)",
       "hours": "120 hrs/semester",
