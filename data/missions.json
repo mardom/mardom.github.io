@@ -6,15 +6,28 @@
       "short_name": "Rubin / LSST",
       "category": "active",
       "period": "2021 – Present",
-      "role": "Argentinian In-Kind Program Manager · SCOC Footprint Task Force (DESC) · NOIRLab Ambassador (2023–2025)",
+      "role": "Member of All 8 Science Collaborations · Argentinian In-Kind Program Manager · SCOC Footprint Task Force (DESC) · NOIRLab Ambassador (2023–2025)",
       "accent": "cyan",
-      "summary": "Coordinating Argentina's In-Kind Contribution (>60 researchers across all 8 Rubin Science Collaborations), leading bright-star survey mask & footprint optimization, AI/ML photometric redshift work, and serving on ISSC, DESC, and TVS committees.",
+      "summary": "Member of all eight Vera C. Rubin Observatory Science Collaborations and Program Manager of Argentina's In-Kind Contribution (>60 researchers across all 8 collaborations), leading bright-star survey mask & footprint optimization, AI/ML photometric redshift work, and ISSC/DESC/TVS committee service.",
       "highlights": [
-        "Data Rights member in DESC, TVS, and ISSC",
+        "Active member across all 8 Rubin Science Collaborations (DESC, TVS, ISSC, AGN, Galaxies, SMWLV, SSSC, SLSC)",
         "SCOC Footprint Task Force DESC Representative (Aug–Oct 2026)",
         "Co-organizer of LSST@LATAM 2024 (Chair) & Rubin Community Workshop SOC (2025–2026)"
       ],
-      "url": "https://rubinobservatory.org/"
+      "sub_collaborations": [
+        "DESC (Dark Energy)",
+        "TVS (Transients & Variable Stars)",
+        "ISSC (Informatics & Statistics)",
+        "AGN (Active Galactic Nuclei)",
+        "Galaxies",
+        "SMWLV (Stars, Milky Way & Local Volume)",
+        "SSSC (Solar System)",
+        "SLSC (Strong Lensing)"
+      ],
+      "url": "https://rubinobservatory.org/",
+      "url_label": "Rubin Portal ↗",
+      "secondary_url": "https://rubinobservatory.org/for-scientists/science-collaborations",
+      "secondary_label": "8 Science Collaborations ↗"
     },
     {
       "id": "roman-nancy",
@@ -31,6 +44,42 @@
         "Cross-survey footprint alignment via SCOC Footprint Task Force"
       ],
       "url": "https://roman.gsfc.nasa.gov/"
+    },
+    {
+      "id": "wst-specs5",
+      "name": "WST & Spec-S5 — Future Spectroscopic Surveys",
+      "short_name": "WST & Spec-S5",
+      "category": "active",
+      "period": "2025 – Future",
+      "role": "Participant — Next-Generation Stage-5 Spectroscopic Surveys",
+      "accent": "violet",
+      "summary": "Participating in next-generation wide-field spectroscopic survey planning for the 2030s, including the Wide-field Spectroscopic Telescope (WST, 10–12 m southern-hemisphere MOS + IFS facility) and the Stage-5 Spectroscopic Experiment (Spec-S5 / S5) for precision cosmology and Galactic archaeology.",
+      "highlights": [
+        "Wide-field Spectroscopic Telescope (WST): high-multiplex MOS & panoramic IFS in the southern sky",
+        "Stage-5 Spectroscopic Experiment (Spec-S5 / S5): next-generation all-sky cosmological & stellar spectroscopy",
+        "Synergy with Rubin LSST large-scale structure, photometric redshifts, and survey masks"
+      ],
+      "url": "https://www.wstelescope.eu/",
+      "url_label": "WST Portal ↗",
+      "secondary_url": "https://spec-s5.org/",
+      "secondary_label": "Spec-S5 Portal ↗"
+    },
+    {
+      "id": "nasa-astra-cosmoscope",
+      "name": "NASA ASTRA — COSMOSCOPE Mission",
+      "short_name": "NASA ASTRA / COSMOSCOPE",
+      "category": "active",
+      "period": "2026 – Future",
+      "role": "Mission Concept Participant · Site in Development",
+      "accent": "gold",
+      "summary": "Participating in the COSMOSCOPE space mission concept under NASA's ASTRA (Astrophysics Strategic Technology & Research Accelerator) initiative, exploring wavefront-curvature interferometry to directly measure cosmic geometry and probe fundamental physics.",
+      "highlights": [
+        "Next-generation space mission concept under NASA's ASTRA strategic program",
+        "Direct cosmic geometry measurement via wavefront-curvature interferometry",
+        "Dedicated COSMOSCOPE mission website currently in development"
+      ],
+      "url": "",
+      "status_note": "Mission Site in Development"
     },
     {
       "id": "merope-horizon",

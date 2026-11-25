@@ -36,6 +36,11 @@
   "news": [
     {
       "date": "2026",
+      "tag": "Future Missions",
+      "text": "Participating in next-generation spectroscopic surveys (WST & Spec-S5) and NASA's ASTRA COSMOSCOPE mission concept (site in development)."
+    },
+    {
+      "date": "2026",
       "tag": "Applied ML & HPC",
       "text": "Representing Universidad de La Serena (ULS) in TALASA and leading development of the HPC & AI cluster for the Frontier Research Center (FRC) at ULS."
     },
@@ -67,6 +72,16 @@
   ],
   "contact": {
     "email": "mariano.dominguez@unc.edu.ar",
+    "emails": [
+      {
+        "address": "mariano.dominguez@unc.edu.ar",
+        "label": "IATE / OAC–UNC (Argentina)"
+      },
+      {
+        "address": "mariano.dominguez@userena.cl",
+        "label": "Frontier Research Center, ULS (Chile)"
+      }
+    ],
     "phone": "+54-351-4331066 (ext. 212)",
     "affiliations": [
       {
@@ -88,6 +103,7 @@
   },
   "links": {
     "github": "https://github.com/mardom",
+    "talasa": "https://talasa.cl/",
     "software_review": "https://mardom.github.io/software-astronomical-stack/",
     "twitter": "https://x.com/marianojavierd1",
     "twitter_handle": "@marianojavierd1",

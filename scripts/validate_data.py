@@ -74,6 +74,7 @@ def main() -> int:
             if not m.get(key):
                 errors.append(f"missions.json mission {m.get('id', '?')} missing {key}")
         check_url(m.get("url", ""), f"mission {m.get('id')}.url", errors)
+        check_url(m.get("secondary_url", ""), f"mission {m.get('id')}.secondary_url", errors)
     for arc in arcs:
         if arc.get("from") not in node_ids or arc.get("to") not in node_ids:
             errors.append(f"missions.json arc references unknown node: {arc}")

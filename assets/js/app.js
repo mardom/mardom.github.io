@@ -154,6 +154,7 @@ function renderHero(profile) {
     links.orcid ? { label: `ORCID ${links.orcid_id || ''}`.trim(), url: links.orcid } : null,
     links.github ? { label: 'GitHub @mardom', url: links.github } : null,
     links.twitter ? { label: `X / Twitter ${links.twitter_handle || ''}`.trim(), url: links.twitter } : null,
+    links.talasa ? { label: 'TALASA', url: links.talasa } : null,
     links.ads ? { label: 'NASA/ADS', url: links.ads } : null,
     links.software_review ? { label: 'Software Stack Review', url: links.software_review } : null,
     links.google_scholar ? { label: 'Google Scholar', url: links.google_scholar } : null,
@@ -271,9 +272,16 @@ function renderMissionsSection(missionsData) {
             <ul class="mission-highlights">
               ${(m.highlights || []).map((h) => `<li>${escapeHtml(h)}</li>`).join('')}
             </ul>
-            ${m.url ? `
-              <div style="margin-top:auto; padding-top:0.35rem;">
-                <a href="${escapeHtml(m.url)}" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">Mission / Portal ↗</a>
+            ${Array.isArray(m.sub_collaborations) && m.sub_collaborations.length ? `
+              <div class="tags-row">
+                ${m.sub_collaborations.map((sc) => `<span class="tag">${escapeHtml(sc)}</span>`).join('')}
+              </div>
+            ` : ''}
+            ${(m.url || m.secondary_url || m.status_note) ? `
+              <div style="margin-top:auto; padding-top:0.35rem; display:flex; flex-wrap:wrap; gap:0.45rem; align-items:center;">
+                ${m.url ? `<a href="${escapeHtml(m.url)}" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">${escapeHtml(m.url_label || 'Mission / Portal ↗')}</a>` : ''}
+                ${m.secondary_url ? `<a href="${escapeHtml(m.secondary_url)}" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">${escapeHtml(m.secondary_label || 'Details ↗')}</a>` : ''}
+                ${m.status_note ? `<span class="badge badge-gold">${escapeHtml(m.status_note)}</span>` : ''}
               </div>
             ` : ''}
           </article>
@@ -859,8 +867,10 @@ function renderConnectSection(profile) {
   let calMode = cal.default_mode || 'MONTH';
 
   const email = contact.email || 'mariano.dominguez@unc.edu.ar';
+  const emailList = Array.isArray(contact.emails) && contact.emails.length
+    ? contact.emails
+    : [{ address: email, label: 'Institutional Email' }];
   const mailtoSubject = encodeURIComponent('Collaboration / Research Inquiry');
-  const mailtoUrl = `mailto:${email}?subject=${mailtoSubject}`;
 
   container.innerHTML = `
     <div class="connect-grid">
@@ -868,18 +878,29 @@ function renderConnectSection(profile) {
         <div>
           <h3 style="font-family:var(--font-display); margin:0 0 0.4rem;">Direct Contact &amp; Services</h3>
           <p style="margin:0; font-size:0.9rem; color:var(--text-secondary);">
-            Reach out for Vera C. Rubin / LSST collaborations, MEROPE &amp; LINCC software partnerships, graduate supervision, or speaking invitations.
+            Reach out for Vera C. Rubin / LSST collaborations, MEROPE &amp; LINCC software partnerships, TALASA / ULS HPC &amp; AI initiatives, graduate supervision, or speaking invitations.
           </p>
         </div>
 
         <div class="contact-box">
-          <div class="contact-label">Email</div>
-          <div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:0.6rem;">
-            <a href="${escapeHtml(mailtoUrl)}" style="font-family:var(--font-mono); font-size:0.92rem;">${escapeHtml(email)}</a>
-            <div style="display:flex; gap:0.45rem;">
-              <a href="${escapeHtml(mailtoUrl)}" class="btn btn-primary btn-sm">Send Email</a>
-              <button type="button" class="btn btn-outline btn-sm" id="copy-email-btn">Copy</button>
-            </div>
+          <div class="contact-label">Institutional Emails</div>
+          <div style="display:flex; flex-direction:column; gap:0.65rem;">
+            ${emailList.map((em) => {
+              const addr = em.address;
+              const href = `mailto:${addr}?subject=${mailtoSubject}`;
+              return `
+                <div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:0.5rem;">
+                  <div>
+                    <a href="${escapeHtml(href)}" style="font-family:var(--font-mono); font-size:0.9rem;">${escapeHtml(addr)}</a>
+                    ${em.label ? `<div style="font-size:0.78rem; color:var(--text-muted);">${escapeHtml(em.label)}</div>` : ''}
+                  </div>
+                  <div style="display:flex; gap:0.45rem;">
+                    <a href="${escapeHtml(href)}" class="btn btn-primary btn-sm">Send Email</a>
+                    <button type="button" class="btn btn-outline btn-sm" data-copy-email="${escapeHtml(addr)}">Copy</button>
+                  </div>
+                </div>
+              `;
+            }).join('')}
           </div>
         </div>
 
@@ -903,6 +924,7 @@ function renderConnectSection(profile) {
           <div style="display:flex; flex-wrap:wrap; gap:0.5rem; margin-top:0.35rem;">
             ${links.github ? `<a href="${escapeHtml(links.github)}" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">GitHub ↗</a>` : ''}
             ${links.twitter ? `<a href="${escapeHtml(links.twitter)}" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">X / Twitter (${escapeHtml(links.twitter_handle || '')}) ↗</a>` : ''}
+            ${links.talasa ? `<a href="${escapeHtml(links.talasa)}" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">TALASA ↗</a>` : ''}
             ${links.software_review ? `<a href="${escapeHtml(links.software_review)}" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">Astrophysical Software Stack ↗</a>` : ''}
             ${links.orcid ? `<a href="${escapeHtml(links.orcid)}" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">ORCID ↗</a>` : ''}
             ${links.ads ? `<a href="${escapeHtml(links.ads)}" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">NASA/ADS ↗</a>` : ''}
@@ -944,8 +966,11 @@ function renderConnectSection(profile) {
     </div>
   `;
 
-  document.getElementById('copy-email-btn')?.addEventListener('click', () => {
-    copyToClipboard(email, `Copied ${email}`);
+  container.querySelectorAll('[data-copy-email]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const addr = btn.dataset.copyEmail;
+      if (addr) copyToClipboard(addr, `Copied ${addr}`);
+    });
   });
 
   container.querySelectorAll('[data-cal-mode]').forEach((btn) => {
