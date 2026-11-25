@@ -1,5 +1,7 @@
 # Dr. Mariano J. de León Domínguez Romero — `mardom.github.io`
 
+**Live Website:** [https://mardom.github.io/](https://mardom.github.io/)
+
 Personal academic website built as a **zero-build static site** for GitHub Pages. All content is driven by clean JSON files in [`data/`](data/), so you can update any section directly from the GitHub web editor or locally in seconds without Node, Jekyll, or build steps.
 
 ---
