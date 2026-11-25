@@ -1,0 +1,119 @@
+{
+  "applied_ml_projects": [
+    {
+      "id": "talasa-uls",
+      "title": "TALASA — ULS Representative",
+      "period": "2026 – Present",
+      "status": "Active Leadership",
+      "role": "Universidad de La Serena (ULS) Representative",
+      "description": "Representing Universidad de La Serena in the TALASA initiative, driving applied machine learning, collaborative data science workflows, and cross-institutional AI research partnerships.",
+      "tags": ["TALASA", "ULS", "Applied AI", "Regional Network"],
+      "url": "",
+      "featured": true
+    },
+    {
+      "id": "uls-frc-hpc-ai",
+      "title": "HPC & AI Cluster — Frontier Research Center (FRC), ULS",
+      "period": "2026 – Present",
+      "status": "Infrastructure Lead",
+      "role": "Lead Architect & Responsible for Cluster Development",
+      "description": "Leading the design, deployment, and scientific computing roadmap of the High-Performance Computing (HPC) & AI cluster at the Frontier Research Center (Centro de Investigaciones de Frontera, ULS) for petabyte-scale sky surveys, simulations, and foundation-model training.",
+      "tags": ["HPC", "AI Cluster", "GPU Computing", "FRC–ULS"],
+      "url": "",
+      "featured": true
+    },
+    {
+      "id": "pontifex-moe",
+      "title": "Pontifex: Rubin–Roman Spatial-Calibrated Mixture-of-Experts",
+      "period": "2026",
+      "status": "NeurIPS 2026 (Accepted)",
+      "role": "Co-Author & Lead ML Architect",
+      "description": "Mixture-of-Experts architecture with spatial calibration engineered for the Rubin–Roman Photometric Redshift Challenge, combining multi-band survey fidelity with calibrated uncertainty estimation.",
+      "tags": ["MoE", "PyTorch", "Photo-z", "Calibration"],
+      "url": "https://github.com/mardom/Pontifex",
+      "featured": true
+    },
+    {
+      "id": "multimodal-foundation-models",
+      "title": "Multimodal Foundation Models in Astrophysics",
+      "period": "2025 – Present",
+      "status": "Active Research",
+      "role": "Principal Advisor (UGA / FaMAF–UNC)",
+      "description": "Exploring multimodal foundation models bridging imaging, spectra, time series, and tabular catalogs for cosmological discovery and cross-survey representation learning.",
+      "tags": ["Foundation Models", "Multimodal AI", "UGA / FaMAF"],
+      "url": "",
+      "featured": false
+    },
+    {
+      "id": "diplodatos-automl",
+      "title": "DiploDatos & AutoML Education (FaMAF–UNC)",
+      "period": "2018 – Present",
+      "status": "500+ Alumni",
+      "role": "Co-founder (2018) & Professor of AutoML",
+      "description": "Co-founded the Diploma in Data Science, Machine Learning and Applications at FaMAF–UNC, training over 500 data scientists across Argentina and teaching Automated Machine Learning (AutoML) and Data Curation.",
+      "tags": ["AutoML", "Data Science", "Education"],
+      "url": "",
+      "featured": false
+    },
+    {
+      "id": "toyoko-labs-ml",
+      "title": "TOYOKO Labs Applied Machine Learning Grant",
+      "period": "2020",
+      "status": "PI — Industry/Applied ML",
+      "role": "Principal Investigator",
+      "description": "Applied Machine Learning and Data Science research grant bridging academic statistical learning and real-world predictive modeling pipelines.",
+      "tags": ["Applied ML", "Data Science", "TOYOKO"],
+      "url": "",
+      "featured": false
+    },
+    {
+      "id": "ml-dia-transients",
+      "title": "Deep Learning on Difference Image Analysis (DIA)",
+      "period": "2019",
+      "status": "Astronomy and Computing",
+      "role": "Co-Author & Thesis Advisor",
+      "description": "Systematic benchmarking of machine learning and convolutional architectures for automated real/bogus transient classification in astronomical difference imaging.",
+      "tags": ["Computer Vision", "Transients", "DIA"],
+      "url": "https://doi.org/10.1016/j.ascom.2019.05.002",
+      "featured": false
+    }
+  ],
+  "photographs": [
+    {
+      "id": "photo-portrait-architecture",
+      "title": "Architectural Geometry & Sky",
+      "category": "Portrait & Architecture",
+      "location": "Field & Travel",
+      "year": "2026",
+      "image": "assets/images/profile.jpg",
+      "caption": "Featured portrait beneath sunlit geometric lattice architecture."
+    },
+    {
+      "id": "photo-observatories-slot",
+      "title": "Observatories & Night Skies",
+      "category": "Observatories",
+      "location": "Cerro Pachón · Córdoba · La Serena",
+      "year": "Gallery Slot",
+      "image": "",
+      "caption": "Drop observatory or night-sky photos into assets/images/photos/ and set \"image\" in data/showcase.json."
+    },
+    {
+      "id": "photo-conferences-slot",
+      "title": "Conferences & Collaborations",
+      "category": "Collaborations",
+      "location": "LSST@LATAM · Rubin Workshops · Visits",
+      "year": "Gallery Slot",
+      "image": "",
+      "caption": "Add team, workshop, and First Light celebration photographs here via data/showcase.json."
+    },
+    {
+      "id": "photo-astrophoto-slot",
+      "title": "Astrophotography & Landscapes",
+      "category": "Astrophotography",
+      "location": "Southern Hemisphere & Andes",
+      "year": "Gallery Slot",
+      "image": "",
+      "caption": "Add Milky Way, mountain, or instrument photographs here via data/showcase.json."
+    }
+  ]
+}

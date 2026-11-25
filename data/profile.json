@@ -1,0 +1,101 @@
+{
+  "name": "Dr. Mariano Javier de León Domínguez Romero",
+  "short_name": "Mariano Domínguez Romero",
+  "monogram": "MDR",
+  "photo": "assets/images/profile.jpg",
+  "cv_pdf": "",
+  "coordinates_badge": "IATE–OAC Córdoba · ULS La Serena · Vera C. Rubin Observatory",
+  "titles": [
+    "Independent Researcher (CONICET — IATE)",
+    "Associate Professor (OAC–UNC)",
+    "Professor (Frontier Research Center, ULS)",
+    "Program Manager, Argentinian In-Kind Contribution to Vera C. Rubin Observatory (LSST)"
+  ],
+  "bio_paragraphs": [
+    "I am an observational cosmologist and astrostatistician based in Córdoba, Argentina, and La Serena, Chile. I serve as an Independent Researcher at CONICET (Instituto de Astronomía Teórica y Experimental, IATE), Associate Professor at the Observatorio Astronómico de Córdoba (OAC–UNC), and Professor at the Frontier Research Center (Centro de Investigaciones de Frontera), Universidad de La Serena.",
+    "My research bridges large-scale structure, photometric redshifts, Local Volume cosmology and dark matter subhalo wakes, Epoch of Reionization 21 cm cosmology, time-domain multi-messenger astronomy, and Scientific Machine Learning & Multimodal Foundation Models. Since 2021, I have served as Program Manager of the Argentinian In-Kind Contribution to the Vera C. Rubin Observatory (LSST), coordinating over 60 researchers across all eight Rubin Science Collaborations, and I also represent DESC on the Rubin SCOC Footprint Task Force.",
+    "At Universidad de La Serena, I represent ULS in TALASA and lead the development of the High-Performance Computing (HPC) & AI cluster for the Frontier Research Center (FRC). Alongside open-source astrophysical software development (Pontifex, Skykatana, νGundam, Corral, MeSsI) and leading Argentina's node in the Horizon Europe MEROPE consortium, I am deeply committed to interdisciplinary data science education—having co-founded the DiploDatos diploma at FaMAF–UNC, which has trained more than 500 data scientists."
+  ],
+  "research_interests": [
+    "Observational Cosmology",
+    "Astrostatistics & Bayesian Inference",
+    "Large-Scale Structure & Photometric Redshifts",
+    "Local Volume Cosmology & Dark Matter Subhalo Wakes",
+    "Epoch of Reionization & 21 cm Cosmology",
+    "Scientific Machine Learning, Deep Learning & Multimodal Foundation Models",
+    "Time-Domain Astronomy & Gravitational Lensing"
+  ],
+  "metrics": [
+    { "value": "15", "label": "h-index (NASA/ADS)" },
+    { "value": "5,000+", "label": "Total Citations" },
+    { "value": "60+", "label": "Rubin Researchers Coordinated" },
+    { "value": "40", "label": "Articles, Reviews & Submissions" },
+    { "value": "500+", "label": "Data Scientists Trained (DiploDatos)" },
+    { "value": "€1.0M", "label": "Horizon Europe MEROPE Consortium" }
+  ],
+  "news": [
+    {
+      "date": "2026",
+      "tag": "Applied ML & HPC",
+      "text": "Representing Universidad de La Serena (ULS) in TALASA and leading development of the HPC & AI cluster for the Frontier Research Center (FRC) at ULS."
+    },
+    {
+      "date": "2026",
+      "tag": "Publication",
+      "text": "Pontifex (Mixture-of-Experts with Spatial Calibration for the Rubin–Roman Photometric Redshift Challenge) accepted at NeurIPS 2026 (Atlanta, USA)."
+    },
+    {
+      "date": "2026–2030",
+      "tag": "Grant",
+      "text": "Horizon Europe MSCA Staff Exchanges grant MEROPE (€1,007,010; Project ID 101299854) launched with IATE–OAC–UNC as Argentinian Node Coordinator."
+    },
+    {
+      "date": "2026",
+      "tag": "Appointment",
+      "text": "Appointed Professor at the Frontier Research Center (Centro de Investigaciones de Frontera), Universidad de La Serena, Chile."
+    },
+    {
+      "date": "Aug–Oct 2026",
+      "tag": "Rubin SCOC",
+      "text": "Serving as DESC Representative on the Vera C. Rubin Observatory SCOC Footprint Task Force, aligning LSST Skykatana bright-star masking with the Roman Galactic Plane Survey."
+    },
+    {
+      "date": "2025–2026",
+      "tag": "Distinction & Outreach",
+      "text": "Córdoba Provincial Legislature Commendation for the Argentinian Rubin Group, and Co-organizer & Keynote Speaker for the Rubin Observatory First Light celebration at OAC–UNC."
+    }
+  ],
+  "contact": {
+    "email": "mariano.dominguez@unc.edu.ar",
+    "phone": "+54-351-4331066 (ext. 212)",
+    "affiliations": [
+      {
+        "institution": "Instituto de Astronomía Teórica y Experimental (IATE, CONICET–UNC) & Observatorio Astronómico de Córdoba (OAC–UNC)",
+        "address": "Laprida 854, X5000BGR Córdoba, Argentina"
+      },
+      {
+        "institution": "Frontier Research Center (Centro de Investigaciones de Frontera), Universidad de La Serena",
+        "address": "La Serena, Chile"
+      }
+    ]
+  },
+  "calendar": {
+    "calendar_id": "mariano.dominguez@unc.edu.ar",
+    "timezone": "America/Argentina/Cordoba",
+    "embed_url": "https://calendar.google.com/calendar/embed?src=mariano.dominguez%40unc.edu.ar&ctz=America%2FArgentina%2FCordoba&showTitle=0&showPrint=0&showCalendars=0&mode=MONTH",
+    "booking_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&add=mariano.dominguez@unc.edu.ar&text=Meeting+with+Dr.+Mariano+Dom%C3%ADnguez+Romero",
+    "default_mode": "MONTH"
+  },
+  "links": {
+    "github": "https://github.com/mardom",
+    "software_review": "https://mardom.github.io/software-astronomical-stack/",
+    "twitter": "https://x.com/marianojavierd1",
+    "twitter_handle": "@marianojavierd1",
+    "orcid": "https://orcid.org/0000-0002-7982-3135",
+    "orcid_id": "0000-0002-7982-3135",
+    "ads": "https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-7982-3135",
+    "google_scholar": "",
+    "researchgate": "",
+    "linkedin": ""
+  }
+}

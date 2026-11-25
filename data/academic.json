@@ -1,0 +1,362 @@
+{
+  "teaching": [
+    {
+      "title": "Astrometry (Astrometría)",
+      "level": "Undergraduate (Astronomy, FaMAF–UNC)",
+      "hours": "120 hrs/semester",
+      "period": "2022 – 2026",
+      "details": "Professor in charge of lectures (1st & 2nd Semesters 2022; 1st Semester 2024; 1st Semester 2025) and Professor in charge of practical works (1st Semester 2026)."
+    },
+    {
+      "title": "The High-Redshift Universe (El Universo a Alto Redshift)",
+      "level": "Postgraduate & Senior Undergraduate Elective (FaMAF/OAC–UNC)",
+      "hours": "60 hrs",
+      "period": "2007 – Present",
+      "details": "Professor in charge (latest editions in 2nd Semester 2023 and 2nd Semester 2025)."
+    },
+    {
+      "title": "Complements of Modern Physics (Complementos de Física Moderna)",
+      "level": "Undergraduate (Astronomy, FaMAF–UNC)",
+      "hours": "120 hrs/semester",
+      "period": "2024 – 2025",
+      "details": "Professor in charge of practical works (2nd Semester 2024; 2nd Semester 2025)."
+    },
+    {
+      "title": "Astronomical Optics (Óptica Astronómica)",
+      "level": "Undergraduate (Astronomy, FaMAF–UNC)",
+      "hours": "120 hrs",
+      "period": "2023",
+      "details": "Professor in charge of practical works (1st Semester 2023)."
+    },
+    {
+      "title": "Astrostatistics (Astroestadística)",
+      "level": "Postgraduate Course (FaMAF/OAC–UNC)",
+      "hours": "60 hrs",
+      "period": "2010 – Present",
+      "details": "Professor in charge (2010–present; taught in 2022)."
+    },
+    {
+      "title": "Diploma in Data Science, Machine Learning and Applications (DiploDatos)",
+      "level": "Postgraduate Diploma (FaMAF–UNC)",
+      "hours": "> 500 trained data scientists",
+      "period": "2018 – Present",
+      "details": "Co-founder (2018); Professor of AutoML (2020–present) and Data Exploration and Curation (2018–2019)."
+    },
+    {
+      "title": "Postgraduate Courses at OAC–UNC",
+      "level": "Postgraduate (OAC–UNC)",
+      "hours": "Graduate Seminars",
+      "period": "2014 – Present",
+      "details": "Professor of Machine Learning in Astrophysics (since 2015) and Dark Matter (since 2014)."
+    },
+    {
+      "title": "Prior Undergraduate & Postgraduate Courses",
+      "level": "FaMAF / OAC–UNC",
+      "hours": "Core Curriculum",
+      "period": "2001 – 2021",
+      "details": "Algebra I & Discrete Mathematics, Mathematical Analysis II & IV, General Physics IV (Optics), Classical Mechanics, Observational Properties of Clusters of Galaxies (postgraduate), and University Introductory Courses."
+    }
+  ],
+  "mentoring": {
+    "postdocs": [
+      {
+        "name": "Dr. Murli Verma",
+        "period": "2024 – 2025",
+        "affiliation": "TWAS Associate Postdoctoral Fellowship, IATE–OAC–UNC",
+        "topic": "Observational cosmology & large-scale structure collaboration."
+      },
+      {
+        "name": "Dr. Keiko J. Fushimi",
+        "period": "2022 – 2024",
+        "affiliation": "CONICET Postdoctoral Fellow, Instituto de Astrofísica de La Plata (IALP, CONICET–UNLP)",
+        "topic": "Dark matter subhalo wakes in the Milky Way stellar halo with Gaia DR3."
+      }
+    ],
+    "phd_and_grad": [
+      {
+        "name": "Lic. Margionet Fabiola Díaz Araque",
+        "period": "2022 – 2026",
+        "affiliation": "Ph.D. Thesis in Astronomy (FaMAF–UNC) & CONICET Doctoral Fellow (IATE)",
+        "topic": "Characterization of gravitational wakes in the stellar halo and dark matter model predictions."
+      },
+      {
+        "name": "Lic. Augusto Kozameh",
+        "period": "2021 – 2026",
+        "affiliation": "Ph.D. Thesis in Astronomy (FaMAF–UNC) & CONICET Doctoral Fellow (IATE)",
+        "topic": "Large-scale CMB fluctuations and unified dark sector cosmological models."
+      },
+      {
+        "name": "Master Basma Chraibi",
+        "period": "2025",
+        "affiliation": "Master's Research Internship in Computer Science (Université Grenoble Alpes, France / FaMAF–UNC)",
+        "topic": "Multimodal Foundation Models in Astrophysics."
+      },
+      {
+        "name": "Dr. Bruno Sánchez",
+        "period": "2014 – 2019",
+        "affiliation": "Ph.D. Thesis in Astronomy (FaMAF–UNC) & CONICET Doctoral Fellow",
+        "topic": "Temporal Series in Astronomy.",
+        "current_position": "Postdoctoral Researcher, CPPM (CNRS/IN2P3, Aix-Marseille Université) & Rubin Observatory Alert Production Team (prev. Duke University)",
+        "current_url": "https://brunosanchez.github.io/",
+        "current_label": "Current Profile ↗"
+      },
+      {
+        "name": "Dr. Martín de los Ríos",
+        "period": "2014 – 2019",
+        "affiliation": "Ph.D. Thesis in Astronomy (FaMAF–UNC) & CONICET Doctoral Fellow",
+        "topic": "Machine Learning Applied to Cosmological Problems.",
+        "current_position": "Assistant Researcher (CONICET), IATE–UNC (prev. IFT UAM/CSIC Madrid & ICTP-SAIFR)",
+        "current_url": "https://martindelosrios.netlify.app/",
+        "current_label": "Current Profile ↗"
+      },
+      {
+        "name": "Dr. Elizabeth J. Gonzalez",
+        "period": "2012 – 2017",
+        "affiliation": "Ph.D. Thesis in Astronomy (FaMAF–UNC)",
+        "topic": "Observations and Analysis of Astrophysical Systems using Gravitational Lensing.",
+        "current_position": "Assistant Researcher (CONICET) & Assistant Professor, IATE / OAC–UNC",
+        "current_url": "https://orcid.org/0000-0002-0226-9893",
+        "current_label": "ORCID / Profile ↗"
+      },
+      {
+        "name": "Dr. Andrés Nicolás Ruiz",
+        "period": "2008 – 2013",
+        "affiliation": "Ph.D. Thesis in Astronomy (FaMAF–UNC) & CONICET Doctoral Fellow",
+        "topic": "Calibration of a Semi-Analytical Galaxy Formation Model.",
+        "current_position": "Independent Researcher (CONICET), IATE & Adjunct Professor, OAC–UNC",
+        "current_url": "https://iate.oac.uncor.edu/~andres/index.html",
+        "current_label": "IATE Webpage ↗"
+      }
+    ],
+    "undergraduate": [
+      {
+        "name": "Lic. Octavio García",
+        "period": "2022 – 2025",
+        "affiliation": "Licenciatura Thesis in Astronomy, FaMAF–UNC (co-advised with Dr. C. Valotto)",
+        "topic": "Simulations of the Epoch of Reionization with Primordial Black Hole Seeds and 21 cm Predictions."
+      },
+      {
+        "name": "Lic. Tania Tagliaferro",
+        "period": "Defended March 2015",
+        "affiliation": "Licenciatura Thesis in Astronomy, FaMAF–UNC",
+        "topic": "Gravitational Arcs Detection."
+      },
+      {
+        "name": "Lic. Bruno Sánchez",
+        "period": "Defended March 2014",
+        "affiliation": "Licenciatura Thesis in Astronomy, FaMAF–UNC",
+        "topic": "Temporal Series in Galaxies: Transient Detections."
+      },
+      {
+        "name": "Lic. Martín de los Ríos",
+        "period": "Defended March 2014",
+        "affiliation": "Licenciatura Thesis in Astronomy, FaMAF–UNC",
+        "topic": "Building up a Catalog of Merging Clusters."
+      },
+      {
+        "name": "Lic. Victoria Santucho",
+        "period": "Defended March 2012",
+        "affiliation": "Licenciatura Thesis in Astronomy, FaMAF–UNC",
+        "topic": "Satellite Galaxies in the VVV Survey."
+      },
+      {
+        "name": "Lic. Victoria Maldonado",
+        "period": "Defended March 2012 (AAA Fellow 2011)",
+        "affiliation": "Licenciatura Thesis in Astronomy, FaMAF–UNC",
+        "topic": "Effect of Velocity Drag in the 21 cm Signal from Reionization."
+      },
+      {
+        "name": "Lic. Andrés Nicolás Ruiz",
+        "period": "Defended March 2008",
+        "affiliation": "Licenciatura Thesis in Astronomy, FaMAF–UNC",
+        "topic": "A Wave Model for Structure Formation."
+      },
+      {
+        "name": "Lic. Ana Laura Serra",
+        "period": "Defended Feb 2008 (AAA Fellow 2007)",
+        "affiliation": "Licenciatura Thesis in Astronomy, FaMAF–UNC",
+        "topic": "The Dark Matter Equation of State."
+      }
+    ]
+  },
+  "conferences_organized": [
+    {
+      "year": "2026",
+      "name": "LAPIS 2026: Local Volume Cosmology",
+      "location": "UNLP, La Plata, Argentina",
+      "role": "General Organizer, LOC, SOC, and Coordinator"
+    },
+    {
+      "year": "2025 & 2026",
+      "name": "Rubin Community Workshop 2025 & 2026",
+      "location": "NOIRLab — Tucson, AZ (2025) & San Francisco / Stanford, CA (2026)",
+      "role": "Member of Scientific Organizing Committee (SOC), session design and oral/poster selection"
+    },
+    {
+      "year": "2025",
+      "name": "LSST@LATAM 2025",
+      "location": "UNAM, Mexico City, Mexico",
+      "role": "SOC Member & Invited Panelist on astronomical research in Latin America"
+    },
+    {
+      "year": "June 2024",
+      "name": "First Rubin Observatory in Latin America Workshop (LSST@LATAM 2024)",
+      "location": "NOIRLab & Universidad de La Serena, La Serena, Chile",
+      "role": "Chair of the Scientific Organizing Committee (SOC) and General Organizer"
+    },
+    {
+      "year": "April 2022",
+      "name": "FOF 2022 Workshop — Time Domain Astronomy & Annual Meeting of the Argentinian Rubin Working Group",
+      "location": "IATE–OAC–UNC, Córdoba, Argentina",
+      "role": "General Organizer"
+    },
+    {
+      "year": "April 2017",
+      "name": "Friends of Friends 2017 Workshop (150 participants)",
+      "location": "IATE–OAC–UNC, Córdoba, Argentina",
+      "role": "General Organizer (featured dedicated Data Science & ML symposium)"
+    },
+    {
+      "year": "June 2013",
+      "name": "1st TOROS Workshop (50 participants incl. LIGO/Caltech/MIT)",
+      "location": "Salta, Argentina",
+      "role": "Co-organizer"
+    }
+  ],
+  "invited_talks": [
+    {
+      "year": "2026",
+      "title": "An Overview of LVC upcoming data and tools",
+      "event": "LAPIS 2026: Local Volume Cosmology Workshop, UNLP, La Plata, Argentina"
+    },
+    {
+      "year": "June 2025",
+      "title": "Astro Estadística con LSST",
+      "event": "Astronomical Seminar Cycle, OAC/IATE–UNC, Córdoba, Argentina"
+    },
+    {
+      "year": "April 2025",
+      "title": "The LSST — what it will bring for Argentina",
+      "event": "International Workshop on ML and Deep Learning in Large Multi-band Photometric Surveys (S-PLUS), FCAG–UNLP, La Plata, Argentina"
+    },
+    {
+      "year": "December 2024",
+      "title": "The Argentinian participation group in LSST and current developments in LSS and LVC",
+      "event": "Fundamental Physics meets Current and Future Facilities in Cosmology, ICTP-SAIFR, São Paulo, Brazil"
+    },
+    {
+      "year": "September 2022",
+      "title": "The Argentinian participation in the Vera C. Rubin Observatory / Análisis Astroestadísticos con el Observatorio Vera C. Rubin",
+      "event": "64th Annual Meeting of the Argentine Astronomical Association (AAA) & Pabellón Cero+Infinito (UBA), Buenos Aires, Argentina"
+    },
+    {
+      "year": "October 2019",
+      "title": "Line Intensity Mapping in Cosmology",
+      "event": "CART Workshop, San Juan, Argentina"
+    },
+    {
+      "year": "September 2016",
+      "title": "Machine Learning in Astronomy Research",
+      "event": "Astroinformatics NOVA Workshop, IAFE, Buenos Aires, Argentina"
+    },
+    {
+      "year": "August 2015",
+      "title": "A Virtual Laboratory for TOROS",
+      "event": "NOVA@OAC Workshop, Córdoba, Argentina"
+    },
+    {
+      "year": "November 2014",
+      "title": "Merging Clusters Systems Identification",
+      "event": "Galaxy Groups Meeting, Universidad de La Serena, Chile"
+    },
+    {
+      "year": "February 2012",
+      "title": "The Dark Matter Equation of State and its Cosmological Consequences",
+      "event": "Center for Gravitational Wave Astronomy, University of Texas at Brownsville, USA"
+    },
+    {
+      "year": "August 2011",
+      "title": "Astrostatistics",
+      "event": "AAA Workshop on Computational Astronomy, Córdoba, Argentina"
+    },
+    {
+      "year": "September 2007",
+      "title": "Improving the Identification of Galaxy Systems and its Statistics",
+      "event": "LENAC II Latin-American Workshop, Villa General Belgrano, Argentina"
+    },
+    {
+      "year": "May 2007",
+      "title": "Databases: Accessibility and Statistical Analysis",
+      "event": "Workshop on Theoretical Astronomy in Argentina, OAC–UNC, Córdoba, Argentina"
+    },
+    {
+      "year": "May 2002",
+      "title": "Environment Effects on Galaxies in the 2dF Galaxy Groups",
+      "event": "FONDAP Workshop: Birth and Evolution of Structures in the Universe, PUC, Santiago, Chile"
+    },
+    {
+      "year": "June 2001",
+      "title": "Evolution of Galaxies in Clusters",
+      "event": "Department of Meteorology and Astronomy, University of Barcelona, Spain"
+    }
+  ],
+  "contributed_talks": [
+    {
+      "year": "December 2026",
+      "title": "Pontifex: A Mixture-of-Experts Architecture with Spatial Calibration for the Rubin–Roman Photometric Redshift Challenge",
+      "event": "40th Conference on Neural Information Processing Systems (NeurIPS 2026), Atlanta, GA, USA"
+    },
+    {
+      "year": "April 2026",
+      "title": "Skykatana: a scalable framework to construct complex angular selection functions for the Vera Rubin Observatory and large astronomical surveys",
+      "event": "Empowering Science in the Data Rich Era of Astronomy, NOIRLab, Tucson, AZ, USA (Oral)"
+    },
+    {
+      "year": "October 2025",
+      "title": "Masa de materia oscura de subhalos a partir de wakes gravitacionales",
+      "event": "67th AAA Annual Meeting (RAAA67), Mendoza, Argentina (Oral)"
+    },
+    {
+      "year": "July 2024",
+      "title": "A study of gravitational wakes by satellite galaxies in the MW halo with Auriga simulation",
+      "event": "Dwarf Galaxies, Star Clusters, and Streams in the LSST Era, Kavli Institute for Cosmological Physics (KICP), University of Chicago, IL, USA (Flash Talk & Poster)"
+    },
+    {
+      "year": "Sept/Oct 2023",
+      "title": "Un estudio del halo estelar galáctico de la Milky Way con datos de Gaia DR3 (+ SMBHs seeds & ML Galaxy Clusters posters)",
+      "event": "65th AAA Annual Meeting, San Juan, Argentina (Oral & Posters)"
+    },
+    {
+      "year": "Sept/Nov 2022",
+      "title": "An Approximation to the Detection of the 21cm Line of the Reionization Epoch with the MIA Interferometer",
+      "event": "Prospects for Low-Frequency Radio Astronomy in South America, IAR, Buenos Aires, Argentina"
+    },
+    {
+      "year": "August 2022",
+      "title": "Finding high magnification fields with LSST",
+      "event": "BOOM! A Workshop on Explosive Transients with the LSST, UIUC, Urbana-Champaign, IL, USA (Oral; also attended June 2023)"
+    },
+    {
+      "year": "2001 – 2021",
+      "title": "Prior International Conferences & Workshops",
+      "event": "AAA Meetings (2002–2021), ENEA (2018), XXVIII Epistemology & History of Science (2017), Cargèse School of Cosmology (2017), ADASS XXVII (2017), CONCERTO@IATE (2016), FoF Meetings (2012, 2014, 2016), Harvard Dark Matter Conference (2014), Hotwiring the Transient Universe III (Santa Fe, 2013), Cosmology on the Beach (Cancún, 2012), KITP UC Santa Barbara (2012), Aspen Center for Physics (2012), Cosmosul (Rio de Janeiro, 2011), GRAV09 (2009), IAU LARIM (2001), and OXCAM4 (Oxford University, 2001)."
+    }
+  ],
+  "outreach": [
+    {
+      "period": "2025 / 2026",
+      "title": "Rubin First Light Party & National Media",
+      "details": "Co-organizer, coordinator, and keynote public speaker at OAC–UNC for the Vera C. Rubin Observatory First Light celebration, accompanied by extensive interviews on national television (Canal 10 SRT–UNC and national channels), newspapers, podcasts, and radio stations across Córdoba, Jujuy, Misiones, Catamarca, Río Negro, Buenos Aires, and La Plata."
+    },
+    {
+      "period": "November 2023",
+      "title": "Night of the Museums (Noche de los Museos)",
+      "details": "Co-organizer and speaker of the interactive exhibition 'Discovering the Vera C. Rubin Observatory' at OAC–UNC."
+    },
+    {
+      "period": "2001 – 2026",
+      "title": "Public Lectures, NOIRLab Outreach & Teacher Training",
+      "details": "Public lecture 'Data Science in Astronomy: Astrostatistical Analyses with the Vera C. Rubin Observatory' at Pabellón Cero+Infinito (UBA, Buenos Aires, September 2022); NOIRLab Ambassador outreach activities (2023–2025); Co-organizer of Astronomy Outreach Courses for Secondary School Teachers (2011–2013) and OAC Outreach Commission (2002–2004)."
+    }
+  ]
+}

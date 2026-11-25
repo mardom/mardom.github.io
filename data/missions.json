@@ -1,0 +1,383 @@
+{
+  "missions": [
+    {
+      "id": "rubin-lsst",
+      "name": "Vera C. Rubin Observatory (LSST)",
+      "short_name": "Rubin / LSST",
+      "category": "active",
+      "period": "2021 – Present",
+      "role": "Argentinian In-Kind Program Manager · SCOC Footprint Task Force (DESC) · NOIRLab Ambassador (2023–2025)",
+      "accent": "cyan",
+      "summary": "Coordinating Argentina's In-Kind Contribution (>60 researchers across all 8 Rubin Science Collaborations), leading bright-star survey mask & footprint optimization, AI/ML photometric redshift work, and serving on ISSC, DESC, and TVS committees.",
+      "highlights": [
+        "Data Rights member in DESC, TVS, and ISSC",
+        "SCOC Footprint Task Force DESC Representative (Aug–Oct 2026)",
+        "Co-organizer of LSST@LATAM 2024 (Chair) & Rubin Community Workshop SOC (2025–2026)"
+      ],
+      "url": "https://rubinobservatory.org/"
+    },
+    {
+      "id": "roman-nancy",
+      "name": "Nancy Grace Roman Space Telescope",
+      "short_name": "Roman / NANCY",
+      "category": "active",
+      "period": "2023 – Present",
+      "role": "Rubin–Roman Joint Photometric Redshift & Survey Alignment Contributor",
+      "accent": "gold",
+      "summary": "Advancing joint Rubin–Roman multi-band science through the Pontifex Mixture-of-Experts architecture (NeurIPS 2026), the NANCY Core Community Survey White Paper, and Rubin–Roman Galactic Plane Survey alignment.",
+      "highlights": [
+        "NeurIPS 2026 Pontifex Rubin–Roman Photometric Redshift Challenge",
+        "NANCY Core Community Survey White Paper (arXiv:2306.11784)",
+        "Cross-survey footprint alignment via SCOC Footprint Task Force"
+      ],
+      "url": "https://roman.gsfc.nasa.gov/"
+    },
+    {
+      "id": "merope-horizon",
+      "name": "MEROPE (Horizon Europe MSCA)",
+      "short_name": "MEROPE Consortium",
+      "category": "consortia",
+      "period": "2026 – 2030",
+      "role": "Researcher & Argentinian Node Coordinator (IATE–OAC–UNC)",
+      "accent": "violet",
+      "summary": "International Horizon Europe Marie Skłodowska-Curie Actions Staff Exchanges consortium (Project ID 101299854, EUR 1,007,010) led by INAF (Italy) focusing on stray-light modeling, astrometry, and survey masks for the Vera C. Rubin Observatory.",
+      "highlights": [
+        "Total EU funding: EUR 1,007,010.00 (100%)",
+        "Stray-light characterization, astrometry & angular selection masks",
+        "Cross-continental staff exchange between Europe and Latin America"
+      ],
+      "url": "https://cordis.europa.eu/"
+    },
+    {
+      "id": "lincc-frameworks",
+      "name": "LINCC Frameworks / LSST Discovery Alliance",
+      "short_name": "LINCC Frameworks",
+      "category": "consortia",
+      "period": "2024 – Present",
+      "role": "Co-PI (Incubator Cohort 4) & Visiting Scientist at CMU",
+      "accent": "cyan",
+      "summary": "Developing petabyte-scale open-source astronomical software frameworks (Skykatana, El Zorro, νGundam/Corrgi) natively integrated with HATS/LSDB hierarchical spatial partitioning.",
+      "highlights": [
+        "LSST-DA LINCC Frameworks Incubator Cohort 4 (USD 22,500)",
+        "Collaboration between Carnegie Mellon University, IATE, and ICATE",
+        "Skykatana (A&C 2026) and νGundam (A&A 2026)"
+      ],
+      "url": "https://lsstdiscoveryalliance.org/programs/lincc-frameworks/"
+    },
+    {
+      "id": "gaia-lvc",
+      "name": "Gaia DR3 & Local Volume Cosmology",
+      "short_name": "Gaia DR3 / LVC",
+      "category": "active",
+      "period": "2022 – Present",
+      "role": "Principal Investigator & LAPIS 2026 General Organizer",
+      "accent": "gold",
+      "summary": "Measuring dark matter subhalo masses for the Large and Small Magellanic Clouds via gravitational wakes imprinted in Milky Way halo stars using Gaia DR3 and Auriga cosmological simulations.",
+      "highlights": [
+        "LMC subhalo mass determination (A&A 2024, 688, A147)",
+        "Improved gravitational wake formalism (MNRAS 2026, 545, staf2127)",
+        "SMC dark matter subhalo study submitted to MNRAS (2026)"
+      ],
+      "url": "https://www.cosmos.esa.int/web/gaia"
+    },
+    {
+      "id": "erosita-clusters",
+      "name": "eROSITA & Low-Luminosity Galaxy Clusters",
+      "short_name": "eROSITA Clusters",
+      "category": "active",
+      "period": "2015 – Present",
+      "role": "Co-Investigator · Statistical Identification & Weak Lensing",
+      "accent": "violet",
+      "summary": "Statistical detection, weak gravitational lensing mass calibration, and physical characterization of low X-ray luminosity galaxy clusters across eROSITA and deep optical surveys.",
+      "highlights": [
+        "eROSITA era low X-ray luminosity clusters (submitted to MNRAS, 2026)",
+        "Weak lensing mass calibration at 0.18 < z < 0.70 (MNRAS 2015)",
+        "Interacting galaxy cluster candidates (A&A 2018)"
+      ],
+      "url": "https://erosita.mpe.mpg.de/"
+    },
+    {
+      "id": "mia-21cm",
+      "name": "MIA 21 cm Radio Interferometer",
+      "short_name": "MIA 21 cm EoR",
+      "category": "active",
+      "period": "2022 – Present",
+      "role": "Researcher & Thesis Co-Advisor (Epoch of Reionization)",
+      "accent": "cyan",
+      "summary": "Simulating and modeling Epoch of Reionization 21 cm signals, primordial black hole seed effects, and velocity-drag signatures for Argentina's Multipurpose Interferometer Array (MIA).",
+      "highlights": [
+        "Detection approximation for 21 cm EoR line with MIA (RMxAA SC 2024)",
+        "Prospects for Low-Frequency Radio Astronomy in South America (IAR)",
+        "EoR simulations with Primordial Black Hole seeds"
+      ],
+      "url": ""
+    },
+    {
+      "id": "cosmoverse-networks",
+      "name": "CosmoVerse · DeepSkies Lab · A4E",
+      "short_name": "CosmoVerse & DeepSkies",
+      "category": "consortia",
+      "period": "2023 – Present",
+      "role": "Collaboration Member & White Paper Co-Author",
+      "accent": "gold",
+      "summary": "Contributing to global cosmology systematics & fundamental physics collaborations (CosmoVerse), deep-learning astrophysics communities (DeepSkies Lab), and sustainable astronomy advocacy (Astronomers for Planet Earth).",
+      "highlights": [
+        "CosmoVerse White Paper on cosmological tensions (Physics of the Dark Universe 2025)",
+        "DeepSkies Lab AI/ML astrophysics network",
+        "Astronomers for Planet Earth member"
+      ],
+      "url": "https://cosmoverse.eu/"
+    },
+    {
+      "id": "ligo-toros",
+      "name": "LIGO–Virgo & TOROS Collaboration",
+      "short_name": "LIGO–Virgo / TOROS",
+      "category": "heritage",
+      "period": "2013 – 2020",
+      "role": "Postdoctoral Fellow (CGWA) · NSF–CONICET PI · Core Member",
+      "accent": "violet",
+      "summary": "Optical electromagnetic follow-up of gravitational-wave detections including GW150914 and the historic binary neutron star merger GW170817, plus architecting the Corral parallel pipeline framework.",
+      "highlights": [
+        "Multi-messenger observations of GW170817 (ApJL 2017, L12 & L29)",
+        "GW150914 optical follow-up (ApJL 2016) & O2 campaign (MNRAS 2020)",
+        "Co-organizer of 1st TOROS Workshop (Salta, 2013) & Corral framework"
+      ],
+      "url": "https://www.ligo.caltech.edu/"
+    },
+    {
+      "id": "vvv-sdss-2df-gemini",
+      "name": "VISTA/VVV · SDSS · 2dFGRS · Gemini",
+      "short_name": "VVV · SDSS · 2dF · Gemini",
+      "category": "heritage",
+      "period": "2001 – 2021",
+      "role": "Survey Researcher · Gemini NTAC–Argentina (2020–2021)",
+      "accent": "emerald",
+      "summary": "Two decades of foundational extragalactic and Milky Way survey science across 2dFGRS, SDSS, and ESO's VISTA VVV near-infrared survey—including discovery of the first galaxy cluster in VVV—alongside Gemini Observatory time allocation service.",
+      "highlights": [
+        "First Galaxy Cluster discovered by VISTA VVV (ApJ 2019, 874, 86)",
+        "Milky Way bulge & 136M-star VVV photometry (A&A 2013; MNRAS 2013)",
+        "Foundational 2dFGRS galaxy group & SDSS satellite studies (2001–2012)"
+      ],
+      "url": "https://www.eso.org/sci/observing/phase3/data_releases/vvv_dr1.html"
+    }
+  ],
+  "network_nodes": [
+    {
+      "id": "cordoba",
+      "city": "Córdoba",
+      "country": "Argentina",
+      "institution": "IATE (CONICET–UNC) & OAC–UNC / FaMAF–UNC",
+      "lat": -31.42,
+      "lon": -64.19,
+      "type": "hub",
+      "years": "1996 – Present",
+      "description": "Primary research & teaching hub: CONICET Independent Researcher, OAC Associate Professor, Rubin Argentina Program Manager, and DiploDatos Co-founder."
+    },
+    {
+      "id": "la-serena",
+      "city": "La Serena",
+      "country": "Chile",
+      "institution": "Frontier Research Center, Universidad de La Serena & Rubin/Cerro Pachón",
+      "lat": -29.90,
+      "lon": -71.25,
+      "type": "hub",
+      "years": "2014; 2024 – Present",
+      "description": "Professor at Centro de Investigaciones de Frontera (ULS, 2026–Present), Visiting Scientist (2014, 2024–2026), and Chair of LSST@LATAM 2024."
+    },
+    {
+      "id": "la-plata",
+      "city": "La Plata",
+      "country": "Argentina",
+      "institution": "FCAG–UNLP & Instituto de Astrofísica de La Plata (IALP)",
+      "lat": -34.92,
+      "lon": -57.95,
+      "type": "collaboration",
+      "years": "2022 – Present",
+      "description": "General Organizer of LAPIS 2026 (Local Volume Cosmology), Ph.D. Thesis Juries, Postdoc mentoring (Dr. K. Fushimi), and S-PLUS ML Workshop invited speaker."
+    },
+    {
+      "id": "san-juan",
+      "city": "San Juan",
+      "country": "Argentina",
+      "institution": "ICATE (CONICET–UNSJ) & FCEFyN–UNSJ",
+      "lat": -31.54,
+      "lon": -68.54,
+      "type": "collaboration",
+      "years": "2019 – Present",
+      "description": "Co-PI with ICATE on LINCC Frameworks Incubator (Skykatana, νGundam), Doctoral Monitoring Committees, and CART Line Intensity Mapping Workshop."
+    },
+    {
+      "id": "buenos-aires",
+      "city": "Buenos Aires",
+      "country": "Argentina",
+      "institution": "UBA (Pabellón Cero+Infinito), IAFE & IAR",
+      "lat": -34.60,
+      "lon": -58.38,
+      "type": "collaboration",
+      "years": "2016 – Present",
+      "description": "MIA 21 cm collaborations with IAR, AAA Executive Board & 64th AAA Meeting, Pabellón Cero+Infinito public & plenary lectures, and Astroinformatics NOVA."
+    },
+    {
+      "id": "santiago",
+      "city": "Santiago",
+      "country": "Chile",
+      "institution": "Pontificia Universidad Católica de Chile (PUC)",
+      "lat": -33.45,
+      "lon": -70.67,
+      "type": "visiting",
+      "years": "2002; 2010",
+      "description": "Visiting Scientist (October 2002) and invited/contributed workshops on structure formation and galaxy groups."
+    },
+    {
+      "id": "sao-paulo",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "institution": "ICTP-SAIFR",
+      "lat": -23.55,
+      "lon": -46.63,
+      "type": "collaboration",
+      "years": "2024",
+      "description": "Invited speaker at 'Fundamental Physics meets Current and Future Facilities in Cosmology' (Dec 2024) on LSST LSS & Local Volume Cosmology."
+    },
+    {
+      "id": "mexico-city",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "institution": "UNAM — LSST@LATAM 2025",
+      "lat": 19.43,
+      "lon": -99.13,
+      "type": "collaboration",
+      "years": "2025",
+      "description": "Scientific Organizing Committee (SOC) member and Invited Panelist on astronomical research in Latin America at LSST@LATAM 2025."
+    },
+    {
+      "id": "brownsville",
+      "city": "Brownsville, TX",
+      "country": "USA",
+      "institution": "Center for Gravitational Wave Astronomy (UTB / UTRGV)",
+      "lat": 25.90,
+      "lon": -97.50,
+      "type": "visiting",
+      "years": "2012; 2013 – 2014",
+      "description": "Postdoctoral Fellow in Gravitational Wave Astronomy & Visiting Scientist; NSF–CONICET TOROS bilateral collaboration."
+    },
+    {
+      "id": "pittsburgh",
+      "city": "Pittsburgh, PA",
+      "country": "USA",
+      "institution": "McWilliams Center for Cosmology / LINCC Frameworks, Carnegie Mellon University",
+      "lat": 40.44,
+      "lon": -79.99,
+      "type": "visiting",
+      "years": "June – July 2024",
+      "description": "Visiting Scientist developing scalable survey masks and spatial correlation frameworks (Skykatana, El Zorro, νGundam) on HATS/LSDB."
+    },
+    {
+      "id": "new-york",
+      "city": "New York, NY",
+      "country": "USA",
+      "institution": "Center for Computational Astrophysics (CCA), Flatiron Institute",
+      "lat": 40.71,
+      "lon": -74.01,
+      "type": "visiting",
+      "years": "June – July 2023",
+      "description": "Visiting Scientist at CCA Flatiron Institute working on computational astrophysics, astrostatistics, and survey data science."
+    },
+    {
+      "id": "chicago",
+      "city": "Chicago & Urbana, IL",
+      "country": "USA",
+      "institution": "Kavli Institute for Cosmological Physics (KICP) & UIUC",
+      "lat": 41.79,
+      "lon": -87.60,
+      "type": "collaboration",
+      "years": "2022 – 2024",
+      "description": "KICP Dwarf Galaxies, Star Clusters & Streams in the LSST Era (2024) and BOOM! Explosive Transients with LSST at UIUC (2022, 2023)."
+    },
+    {
+      "id": "tucson-stanford",
+      "city": "Tucson / Stanford",
+      "country": "USA",
+      "institution": "NSF NOIRLab & SLAC / Stanford (Rubin Community Workshops)",
+      "lat": 32.22,
+      "lon": -110.97,
+      "type": "collaboration",
+      "years": "2023 – 2026",
+      "description": "NOIRLab Ambassador (2023–2025), Rubin Community Workshop SOC (2025 Tucson, 2026 Stanford/SF), and SCOC Footprint Task Force."
+    },
+    {
+      "id": "atlanta",
+      "city": "Atlanta, GA",
+      "country": "USA",
+      "institution": "NeurIPS 2026 (40th Neural Information Processing Systems)",
+      "lat": 33.75,
+      "lon": -84.39,
+      "type": "collaboration",
+      "years": "2026",
+      "description": "Accepted NeurIPS 2026 paper 'Pontifex' for the Rubin–Roman Photometric Redshift Challenge."
+    },
+    {
+      "id": "italy-merope",
+      "city": "Padua / Rome",
+      "country": "Italy",
+      "institution": "INAF & Horizon Europe MEROPE Consortium",
+      "lat": 45.41,
+      "lon": 11.88,
+      "type": "collaboration",
+      "years": "2026 – 2030",
+      "description": "Horizon Europe MSCA MEROPE Consortium led by INAF (PI: Dr. G. Rodeghiero); Argentinian Node Coordinator at IATE–OAC–UNC."
+    },
+    {
+      "id": "grenoble",
+      "city": "Grenoble",
+      "country": "France",
+      "institution": "Université Grenoble Alpes (UGA)",
+      "lat": 45.19,
+      "lon": 5.72,
+      "type": "collaboration",
+      "years": "2025",
+      "description": "Co-advising Master's Research Internship (Basma Chraibi, 2025) on Multimodal Foundation Models in Astrophysics."
+    },
+    {
+      "id": "garching",
+      "city": "Garching",
+      "country": "Germany",
+      "institution": "Max Planck Institute for Astrophysics (MPA)",
+      "lat": 48.26,
+      "lon": 11.67,
+      "type": "visiting",
+      "years": "July 2001; Oct 2003",
+      "description": "Visiting Scientist at MPA Garching on large-scale structure, galaxy groups, and dark matter halos."
+    },
+    {
+      "id": "durham",
+      "city": "Durham",
+      "country": "United Kingdom",
+      "institution": "Department of Physics, University of Durham",
+      "lat": 54.77,
+      "lon": -1.58,
+      "type": "visiting",
+      "years": "April – June 2001",
+      "description": "Visiting Scientist at Durham University during 2dFGRS morphological and spectral segregation studies."
+    }
+  ],
+  "network_arcs": [
+    { "from": "cordoba", "to": "la-serena" },
+    { "from": "cordoba", "to": "la-plata" },
+    { "from": "cordoba", "to": "san-juan" },
+    { "from": "cordoba", "to": "buenos-aires" },
+    { "from": "cordoba", "to": "sao-paulo" },
+    { "from": "cordoba", "to": "mexico-city" },
+    { "from": "cordoba", "to": "brownsville" },
+    { "from": "cordoba", "to": "pittsburgh" },
+    { "from": "cordoba", "to": "new-york" },
+    { "from": "cordoba", "to": "chicago" },
+    { "from": "la-serena", "to": "tucson-stanford" },
+    { "from": "cordoba", "to": "atlanta" },
+    { "from": "cordoba", "to": "italy-merope" },
+    { "from": "cordoba", "to": "grenoble" },
+    { "from": "cordoba", "to": "garching" },
+    { "from": "cordoba", "to": "durham" },
+    { "from": "la-serena", "to": "santiago" }
+  ]
+}

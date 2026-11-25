@@ -1,1 +1,231 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Mariano J. de León Domínguez Romero — Observational Cosmology &amp; Astrostatistics</title>
+  <meta name="description" content="Personal academic website of Dr. Mariano Javier de León Domínguez Romero: Observational Cosmology, Vera C. Rubin Observatory (LSST), Astrostatistics, Scientific Machine Learning, Open-Source Astrophysical Software, Publications, and Collaborations." />
+  <meta name="author" content="Dr. Mariano Javier de León Domínguez Romero" />
+  <meta property="og:title" content="Dr. Mariano J. de León Domínguez Romero — Observational Cosmology &amp; Astrostatistics" />
+  <meta property="og:description" content="Independent Researcher (CONICET–IATE), Associate Professor (OAC–UNC), Professor (Frontier Research Center, ULS), and Program Manager for Argentina's In-Kind Contribution to the Vera C. Rubin Observatory." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mardom.github.io/" />
+  <link rel="icon" type="image/jpeg" href="assets/images/profile.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600&amp;family=Space+Grotesk:wght@600;700&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <canvas id="starfield-canvas" aria-hidden="true"></canvas>
+  <div class="ambient-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="#home" class="brand">
+        <span class="brand-mark">
+          <img src="assets/images/profile.jpg" alt="Dr. Mariano Domínguez Romero" style="width:100%; height:100%; object-fit:cover; object-position:center 28%;" />
+        </span>
+        <span>Mariano Domínguez Romero</span>
+      </a>
+
+      <nav aria-label="Primary navigation">
+        <ul id="nav-links" class="nav-links">
+          <li><a href="#home" class="active">Overview</a></li>
+          <li><a href="#missions">Missions</a></li>
+          <li><a href="#software">Software</a></li>
+          <li><a href="#applied-ml">Applied ML</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#career">Career</a></li>
+          <li><a href="#academic">Teaching</a></li>
+          <li><a href="#photos">Photos</a></li>
+          <li><a href="#connect">Connect</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" id="theme-toggle" class="icon-btn" aria-label="Toggle color theme">
+          <span aria-hidden="true">☀️</span>
+        </button>
+        <a href="#connect" class="btn btn-primary btn-sm">Schedule</a>
+        <button type="button" id="mobile-menu-btn" class="icon-btn mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span aria-hidden="true">☰</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div id="load-error" class="error-banner" hidden role="alert"></div>
+    </div>
+
+    <!-- Hero & Metrics -->
+    <section id="home" class="hero">
+      <div class="container" id="hero-content">
+        <noscript>
+          <div class="error-banner">
+            Please enable JavaScript to view the interactive portfolio, publications search, and collaboration map.
+          </div>
+        </noscript>
+      </div>
+    </section>
+
+    <!-- Missions, Observatories & Global Collaboration Network -->
+    <section id="missions" class="section reveal">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <div class="section-eyebrow">01 · Observatories, Surveys &amp; Consortia</div>
+            <h2 class="section-title">Astronomical Missions &amp; Global Network</h2>
+            <p class="section-subtitle">
+              Present leadership and heritage collaborations spanning the Vera C. Rubin Observatory, Nancy Grace Roman Space Telescope, Horizon Europe MEROPE, LINCC Frameworks, Gaia DR3, eROSITA, MIA 21 cm, and LIGO–Virgo / TOROS.
+            </p>
+          </div>
+        </div>
+        <div id="missions-container"></div>
+        <div id="world-map-container" class="card map-wrapper"></div>
+      </div>
+    </section>
+
+    <!-- Astrophysical Software Review & Code Ecosystem -->
+    <section id="software" class="section reveal">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <div class="section-eyebrow">02 · Open-Source Code &amp; Living Review</div>
+            <h2 class="section-title">Astrophysical Software Review &amp; Tools</h2>
+            <p class="section-subtitle">
+              An active collaborative review of modern astrophysical software alongside open-source frameworks for sky masking, spatial correlations, photometric redshifts, and parallel pipelines.
+            </p>
+          </div>
+        </div>
+        <div id="software-container"></div>
+      </div>
+    </section>
+
+    <!-- Applied ML & HPC Projects -->
+    <section id="applied-ml" class="section reveal">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <div class="section-eyebrow">03 · Scientific AI, HPC &amp; Applied Machine Learning</div>
+            <h2 class="section-title">Applied ML &amp; HPC Infrastructure</h2>
+            <p class="section-subtitle">
+              Leadership in TALASA (ULS representative), development of the HPC &amp; AI cluster at the Frontier Research Center (ULS), foundation models, AutoML education, and applied deep learning projects.
+            </p>
+          </div>
+        </div>
+        <div id="applied-ml-container"></div>
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications" class="section reveal">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <div class="section-eyebrow">04 · Peer-Reviewed Articles, Proceedings &amp; Submissions</div>
+            <h2 class="section-title">Publications &amp; Preprints</h2>
+            <p class="section-subtitle">
+              Complete bibliography from 2001 to 2026 — searchable by keyword, year, and research area with one-click BibTeX export.
+            </p>
+          </div>
+        </div>
+        <div id="publications-container"></div>
+      </div>
+    </section>
+
+    <!-- Career, Grants, Honors & Governance -->
+    <section id="career" class="section reveal">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <div class="section-eyebrow">05 · Appointments, Funding &amp; Leadership</div>
+            <h2 class="section-title">Career, Grants &amp; Scientific Service</h2>
+            <p class="section-subtitle">
+              Academic positions, competitive grants, honors, visiting scientist appointments, university governance, and international evaluation committees.
+            </p>
+          </div>
+        </div>
+        <div id="career-container"></div>
+      </div>
+    </section>
+
+    <!-- Teaching, Mentoring, Talks & Outreach -->
+    <section id="academic" class="section reveal">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <div class="section-eyebrow">06 · Education, Supervision &amp; Outreach</div>
+            <h2 class="section-title">Teaching, Mentoring &amp; Conferences</h2>
+            <p class="section-subtitle">
+              Undergraduate and postgraduate courses, DiploDatos data science leadership, Ph.D./M.Sc./Licenciatura supervision (with alumni placements), invited talks, conference organization, and public science communication.
+            </p>
+          </div>
+        </div>
+        <div id="academic-container"></div>
+      </div>
+    </section>
+
+    <!-- Photographs Gallery -->
+    <section id="photos" class="section reveal">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <div class="section-eyebrow">07 · Fieldwork, Observatories &amp; Visuals</div>
+            <h2 class="section-title">Photographs &amp; Observatory Moments</h2>
+            <p class="section-subtitle">
+              Portraits, observatories, conferences, and astrophotography — easily extensible via <code>data/showcase.json</code>.
+            </p>
+          </div>
+        </div>
+        <div id="photos-container"></div>
+      </div>
+    </section>
+
+    <!-- Contact, Links & Google Calendar -->
+    <section id="connect" class="section reveal">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <div class="section-eyebrow">08 · Mail, Google Calendar &amp; Scientific Profiles</div>
+            <h2 class="section-title">Connect &amp; Schedule</h2>
+            <p class="section-subtitle">
+              Direct email contact, institutional coordinates, external code/social/bibliometric links, and integrated Google Calendar availability.
+            </p>
+          </div>
+        </div>
+        <div id="connect-container"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div id="footer-copy">© 2026 Dr. Mariano Javier de León Domínguez Romero</div>
+      <div style="font-family:var(--font-mono); font-size:0.78rem;">
+        Edit content in <code>data/*.json</code> · Zero-build GitHub Pages
+      </div>
+    </div>
+  </footer>
+
+  <div id="photo-lightbox" class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Photograph preview">
+    <button type="button" id="lightbox-close" class="icon-btn lightbox-close" aria-label="Close photograph">✕</button>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="" />
+      <div class="lightbox-caption">
+        <strong id="lightbox-title"></strong>
+        <p id="lightbox-desc"></p>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script defer src="data/bundle.js"></script>
+  <script defer src="assets/js/starfield.js"></script>
+  <script defer src="assets/js/worldmap.js"></script>
+  <script defer src="assets/js/app.js"></script>
+</body>
+</html>

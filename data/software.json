@@ -1,0 +1,134 @@
+{
+  "featured_review": {
+    "title": "Astrophysical Software Review",
+    "subtitle": "A Living Community Review of Modern Open-Source Software in Observational Cosmology, Survey Science & Scientific AI",
+    "status": "Live Living Review — Active Development",
+    "summary": "We are building a comprehensive, living review and taxonomy of the modern astrophysical software ecosystem powering petabyte-scale sky surveys (Vera C. Rubin LSST, Nancy Grace Roman, Gaia, eROSITA). The review evaluates scalable spatial partitioning (HATS/LSDB, HEALPix/HEALSparse), angular selection functions, astrostatistics and Bayesian inference, fast correlation engines, and Scientific Machine Learning / Multimodal Foundation Models.",
+    "repo_url": "https://github.com/mardom/software-astronomical-stack",
+    "docs_url": "https://mardom.github.io/software-astronomical-stack/",
+    "collaborators": [
+      "IATE (CONICET–UNC)",
+      "OAC–UNC",
+      "ICATE (CONICET–UNSJ)",
+      "Universidad de La Serena",
+      "LINCC Frameworks / LSST-DA"
+    ],
+    "pillars": [
+      {
+        "title": "Survey Masks & Spatial Partitioning",
+        "description": "Evaluating HEALSparse/HATS/LSDB data architectures, multi-order coverage maps (MOCs), bright-star masking, and footprint optimization (Skykatana, El Zorro)."
+      },
+      {
+        "title": "Astrostatistics & Fast Correlation Engines",
+        "description": "Benchmarking point-redshift and photometric PDF-aware spatial correlation functions, Bayesian inference, and surrogate modeling (νGundam/Corrgi, Arby)."
+      },
+      {
+        "title": "Scientific ML & Foundation Models",
+        "description": "Surveying Mixture-of-Experts architectures, spatial calibration, multimodal foundation models, and difference-image transient classifiers (Pontifex, LSST-DESC AI/ML)."
+      },
+      {
+        "title": "Reproducible Open-Science Pipelines",
+        "description": "Reviewing trustworthy data-intensive parallel pipelines, containerization, provenance tracking, and open community governance (Corral, MeSsI)."
+      }
+    ],
+    "roadmap": [
+      { "stage": "Taxonomy & Scope", "state": "done" },
+      { "stage": "Core Software Benchmarks", "state": "active" },
+      { "stage": "Community Contributions", "state": "active" },
+      { "stage": "Public Release & Preprint", "state": "upcoming" }
+    ]
+  },
+  "packages": [
+    {
+      "name": "Pontifex",
+      "tagline": "Mixture-of-Experts with Spatial Calibration for Rubin–Roman Photo-z",
+      "description": "A Mixture-of-Experts deep learning architecture incorporating spatial calibration for the Rubin–Roman Photometric Redshift Challenge, accepted at NeurIPS 2026.",
+      "year": 2026,
+      "venue": "NeurIPS 2026 (Accepted)",
+      "language": "Python / PyTorch",
+      "tags": ["Deep Learning", "Photo-z", "Rubin–Roman", "MoE"],
+      "github_repo": "mardom/Pontifex",
+      "repo_url": "https://github.com/mardom/Pontifex",
+      "paper_url": "https://github.com/mardom/Pontifex",
+      "featured": true
+    },
+    {
+      "name": "Skykatana",
+      "tagline": "Scalable Sky Masks for Vera Rubin Observatory & Large Surveys",
+      "description": "Low-memory Python framework built on HEALSparse and HATS/LSDB to construct, combine, and validate complex angular selection functions, bright-star halos, and multi-order coverage maps.",
+      "year": 2026,
+      "venue": "Astronomy and Computing, 55, 101083",
+      "language": "Python",
+      "tags": ["LSST", "Survey Masks", "HATS/LSDB", "HEALSparse"],
+      "github_repo": "samotracio/skykatana",
+      "repo_url": "https://github.com/samotracio/skykatana",
+      "paper_url": "https://doi.org/10.1016/j.ascom.2026.101083",
+      "featured": true
+    },
+    {
+      "name": "νGundam / Corrgi",
+      "tagline": "Unified Point-Redshift & PDF-Aware Spatial Correlation Functions",
+      "description": "High-performance framework (Python + Fortran) for lightspeed pair counts and spatial two-point correlation functions supporting both point redshifts and full photo-z probability distributions.",
+      "year": 2026,
+      "venue": "Astronomy & Astrophysics (Accepted)",
+      "language": "Python / Fortran",
+      "tags": ["Large-Scale Structure", "2PCF", "Photo-z PDFs", "HPC"],
+      "github_repo": "lincc-frameworks-mask-incubator/gundam",
+      "repo_url": "https://github.com/lincc-frameworks-mask-incubator/gundam",
+      "paper_url": "https://arxiv.org/abs/2610.29116v1",
+      "featured": true
+    },
+    {
+      "name": "El Zorro",
+      "tagline": "Scalable Survey Geometry & Catalog Tooling on HATS/LSDB",
+      "description": "Open-source companion tool developed under the LSST-DA LINCC Frameworks Incubator Program Cohort 4 for high-speed mask operations and survey characterization.",
+      "year": 2024,
+      "venue": "LINCC Frameworks Incubator Cohort 4",
+      "language": "Python",
+      "tags": ["LINCC", "HATS/LSDB", "Survey Science"],
+      "github_repo": "",
+      "repo_url": "https://github.com/lincc-frameworks-mask-incubator",
+      "paper_url": "",
+      "featured": false
+    },
+    {
+      "name": "Arby",
+      "tagline": "Fast Data-Driven Reduced-Order Surrogates",
+      "description": "Python module implementing reduced basis and empirical interpolation methods to construct fast, accurate data-driven surrogate models from numerical simulations.",
+      "year": 2021,
+      "venue": "arXiv:2108.01305",
+      "language": "Python",
+      "tags": ["Surrogate Modeling", "Reduced Basis", "Numerical Astrophysics"],
+      "github_repo": "",
+      "repo_url": "https://arxiv.org/abs/2108.01305",
+      "paper_url": "https://arxiv.org/abs/2108.01305",
+      "featured": false
+    },
+    {
+      "name": "Corral Framework",
+      "tagline": "Trustworthy Parallel Astronomical Data Pipelines",
+      "description": "Python MVC and relational-database pipeline framework designed for fault-tolerant, data-intensive parallel processing in time-domain and gravitational-wave follow-up surveys (TOROS).",
+      "year": 2017,
+      "venue": "Astronomy and Computing, 20, 140–154",
+      "language": "Python",
+      "tags": ["Pipelines", "TOROS", "Time-Domain", "SQL"],
+      "github_repo": "toros-astro/corral",
+      "repo_url": "https://github.com/toros-astro/corral",
+      "paper_url": "https://doi.org/10.1016/j.ascom.2017.07.003",
+      "featured": true
+    },
+    {
+      "name": "MeSsI",
+      "tagline": "Merging Systems Identification Algorithm & Catalogue",
+      "description": "Automated astrostatistical algorithm and catalog pipeline for identifying merging galaxy clusters and substructures via Gaussian mixture modeling and dynamical tests.",
+      "year": 2016,
+      "venue": "MNRAS, 458(1), 226–236",
+      "language": "Python / R",
+      "tags": ["Galaxy Clusters", "Astrostatistics", "Merging Systems"],
+      "github_repo": "",
+      "repo_url": "https://doi.org/10.1093/mnras/stw215",
+      "paper_url": "https://doi.org/10.1093/mnras/stw215",
+      "featured": false
+    }
+  ]
+}

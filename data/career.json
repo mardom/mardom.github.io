@@ -1,0 +1,310 @@
+{
+  "positions": [
+    {
+      "period": "2026 – Present",
+      "role": "Professor",
+      "institution": "Frontier Research Center (Centro de Investigaciones de Frontera), Universidad de La Serena",
+      "location": "La Serena, Chile",
+      "current": true,
+      "details": ""
+    },
+    {
+      "period": "2018 – Present",
+      "role": "Independent Researcher (Investigador Independiente)",
+      "institution": "National Scientific and Technical Research Council (CONICET), Instituto de Astronomía Teórica y Experimental (IATE, CONICET–UNC)",
+      "location": "Córdoba, Argentina",
+      "current": true,
+      "details": ""
+    },
+    {
+      "period": "2021 – Present",
+      "role": "Associate Professor (Profesor Asociado)",
+      "institution": "Observatorio Astronómico de Córdoba (OAC), Universidad Nacional de Córdoba (UNC)",
+      "location": "Córdoba, Argentina",
+      "current": true,
+      "details": ""
+    },
+    {
+      "period": "2021 – Present",
+      "role": "Program Manager — Argentinian In-Kind Contribution to Vera C. Rubin Observatory (LSST)",
+      "institution": "Vera C. Rubin Observatory / LSST",
+      "location": "Argentina / International",
+      "current": true,
+      "details": "Coordinating > 60 researchers across the 8 Rubin Science Collaborations."
+    },
+    {
+      "period": "2015 – 2021",
+      "role": "Adjunct Professor (Profesor Adjunto)",
+      "institution": "Observatorio Astronómico de Córdoba (OAC), Universidad Nacional de Córdoba (UNC)",
+      "location": "Córdoba, Argentina",
+      "current": false,
+      "details": ""
+    },
+    {
+      "period": "2012 – 2018",
+      "role": "Adjunct Researcher (Investigador Adjunto)",
+      "institution": "CONICET, Instituto de Astronomía Teórica y Experimental (IATE, CONICET–UNC)",
+      "location": "Córdoba, Argentina",
+      "current": false,
+      "details": ""
+    },
+    {
+      "period": "2013 – 2014",
+      "role": "Postdoctoral Fellow",
+      "institution": "Center for Gravitational Wave Astronomy (CGWA), University of Texas at Brownsville (now UTRGV)",
+      "location": "Brownsville, TX, USA",
+      "current": false,
+      "details": ""
+    },
+    {
+      "period": "2007 – 2012",
+      "role": "Assistant Researcher (Investigador Asistente)",
+      "institution": "CONICET, Instituto de Astronomía Teórica y Experimental (IATE, CONICET–UNC)",
+      "location": "Córdoba, Argentina",
+      "current": false,
+      "details": ""
+    },
+    {
+      "period": "2006 – 2015",
+      "role": "Assistant Professor (Profesor Asistente)",
+      "institution": "Observatorio Astronómico de Córdoba (OAC–UNC)",
+      "location": "Córdoba, Argentina",
+      "current": false,
+      "details": ""
+    },
+    {
+      "period": "2001 – 2006",
+      "role": "Teaching Assistant & Doctoral Fellow",
+      "institution": "OAC–UNC / SECyT–UNC / CONICET",
+      "location": "Córdoba, Argentina",
+      "current": false,
+      "details": "Teaching Assistant (2001–2006), SECyT–UNC Doctoral Fellow (2002–2004), and CONICET Type II Doctoral Fellow (2004–2006)."
+    }
+  ],
+  "education": [
+    {
+      "period": "2013 – 2014",
+      "degree": "Postdoctoral Fellow in Gravitational Wave Astronomy",
+      "institution": "Center for Gravitational Wave Astronomy (CGWA), University of Texas at Brownsville (now UTRGV), TX, USA",
+      "thesis": "",
+      "advisor": "Prof. Mario Díaz"
+    },
+    {
+      "period": "2001 – 2006",
+      "degree": "Ph.D. in Astronomy (Doctor en Astronomía)",
+      "institution": "Facultad de Matemática, Astronomía, Física y Computación (FaMAF), Universidad Nacional de Córdoba (UNC), Argentina",
+      "thesis": "Systems of Galaxies and their Dark Matter Halos",
+      "advisor": "Prof. Hernán Muriel"
+    },
+    {
+      "period": "1996 – 2001",
+      "degree": "Licenciado in Astronomy (M.Sc. equivalent)",
+      "institution": "FaMAF, Universidad Nacional de Córdoba (UNC), Argentina",
+      "thesis": "Morphological Segregation of Galaxies in Clusters",
+      "advisor": "Prof. Hernán Muriel"
+    }
+  ],
+  "grants": [
+    {
+      "period": "2026 – 2030",
+      "title": "MEROPE (HORIZON-MSCA-2025-SE-01, Project ID: 101299854)",
+      "agency": "European Research Executive Agency (REA) — Horizon Europe Marie Skłodowska-Curie Actions Staff Exchanges",
+      "funding": "EUR 1,007,010.00 (100%)",
+      "role": "Researcher & Argentinian Node Coordinator (IATE–OAC–UNC)",
+      "description": "International consortium led by INAF (Italy, PI: Dr. G. Rodeghiero) on stray-light, astrometry, and survey masks for the Vera C. Rubin Observatory."
+    },
+    {
+      "period": "2024",
+      "title": "Survey Masks and Ultrafast Correlation Functions",
+      "agency": "LSST Discovery Alliance — LINCC Frameworks Incubator Program Cohort 4 (CMU, IATE, ICATE)",
+      "funding": "USD 22,500.00 (100%)",
+      "role": "Co-Principal Investigator (PI: Dr. E. Donoso)",
+      "description": "Development of scalable open-source frameworks (Skykatana, El Zorro, Gundam/Corrgi) on HATS/LSDB."
+    },
+    {
+      "period": "2021 – 2023",
+      "title": "Getting started on Transients and Variable Stars for Rubin's LSST in Argentina (KSP-9)",
+      "agency": "Las Cumbres Observatory (LCO) & Heising-Simons Foundation — Kickstarter Grants Program for Rubin Observatory's LSST",
+      "funding": "USD 33,000.00 (100%)",
+      "role": "Principal Investigator (Co-PI: Dr. M. Makler)",
+      "description": "Capacity building and transient/variable star pipelines for Rubin LSST in Argentina."
+    },
+    {
+      "period": "2020",
+      "title": "TOYOKO Labs Research Grant",
+      "agency": "TOYOKO Labs",
+      "funding": "",
+      "role": "Principal Investigator",
+      "description": "Applied Machine Learning and Data Science project."
+    },
+    {
+      "period": "2018 – 2021",
+      "title": "SECyT–UNC Consolidated Research Grant",
+      "agency": "Secretaría de Ciencia y Tecnología, Universidad Nacional de Córdoba",
+      "funding": "",
+      "role": "PI / Co-PI",
+      "description": "Multi-year consolidated institutional research project."
+    },
+    {
+      "period": "2019",
+      "title": "MinCyT Research Grant",
+      "agency": "Ministry of Science, Technology and Innovation, Argentina",
+      "funding": "",
+      "role": "Principal Investigator",
+      "description": "National competitive research grant."
+    },
+    {
+      "period": "2015 – 2017",
+      "title": "CONICET PIP Research Grant",
+      "agency": "CONICET, Argentina",
+      "funding": "",
+      "role": "Principal Investigator",
+      "description": "Multi-year CONICET research grant."
+    },
+    {
+      "period": "2015 – 2016",
+      "title": "SECyT–UNC Research Grant",
+      "agency": "Universidad Nacional de Córdoba",
+      "funding": "",
+      "role": "Principal Investigator",
+      "description": "University research grant."
+    },
+    {
+      "period": "2013 – 2014",
+      "title": "NSF–CONICET Bilateral Collaboration Grant",
+      "agency": "National Science Foundation (USA) & CONICET (Argentina)",
+      "funding": "",
+      "role": "Co-Investigator / Bilateral Lead",
+      "description": "Bilateral grant supporting the TOROS Collaboration."
+    },
+    {
+      "period": "2005 – 2013",
+      "title": "Prior Competitive Grants",
+      "agency": "CONICET & SECyT–UNC",
+      "funding": "",
+      "role": "PI / Co-PI / Core Member",
+      "description": "Core Member of CONICET PIP (2011–2013); Principal Investigator of SECyT–UNC Grant (2010); Co-PI of SECyT–UNC Grant (2005)."
+    }
+  ],
+  "honors": [
+    {
+      "year": "2025",
+      "title": "Legislative Recognition and Commendation",
+      "body": "Awarded by the Unicameral Legislature of the Province of Córdoba (July 2025) to the Argentinian Participation Group at the Vera C. Rubin Observatory led from the Universidad Nacional de Córdoba (OAC/IATE)."
+    },
+    {
+      "year": "2023 – 2025",
+      "title": "NOIRLab Ambassador",
+      "body": "Official designation by NSF's NOIRLab (USA) for scientific representation and public outreach of the Vera C. Rubin Observatory."
+    },
+    {
+      "year": "2018",
+      "title": "Category III Researcher–Professor",
+      "body": "National Program of Incentives for Research Faculty (Programa de Incentivos, Ministry of Education, Argentina)."
+    }
+  ],
+  "governance": [
+    {
+      "period": "Aug – Oct 2026",
+      "body": "Vera C. Rubin Observatory — SCOC Footprint Task Force (Survey Cadence Optimization Committee)",
+      "role": "Representative of the Dark Energy Science Collaboration (DESC)",
+      "details": "Reorganizing the LSST survey footprint based on Skykatana bright-star masking results and aligning with the Nancy Grace Roman Galactic Plane Survey."
+    },
+    {
+      "period": "May 2023 – May 2026",
+      "body": "Honorable Directing Council of FaMAF–UNC",
+      "role": "Elected Faculty Council Member (Consejero Directivo por el Claustro Docente)",
+      "details": ""
+    },
+    {
+      "period": "June 2023 – Sept 2026",
+      "body": "Argentine Astronomical Association (AAA)",
+      "role": "Elected Member of the Executive Board (Consejero de la Comisión Directiva) & Coordinator of AAA Decadal Plan Commission (2019)",
+      "details": ""
+    },
+    {
+      "period": "2006 – 2024",
+      "body": "Observatorio Astronómico de Córdoba (OAC–UNC)",
+      "role": "Academic Secretary (Oct 2021 – Feb 2024); Library Commission Chair (2011–2013); Academic Commission Representative (2006–2007, 2010–2011)",
+      "details": ""
+    },
+    {
+      "period": "2021 – Present",
+      "body": "Vera C. Rubin Observatory Science Collaborations",
+      "role": "Program Manager of Argentinian In-Kind Contribution; ISSC Publication Committee (2024–2026) & Membership Committee (2023); DESC Mentoring Committee (2023–2025); TVS Task Force on Survey Strategy",
+      "details": ""
+    },
+    {
+      "period": "2015 – 2022",
+      "body": "Instituto de Astronomía Teórica y Experimental (IATE, CONICET–UNC)",
+      "role": "Elected Council Member (Consejero Directivo): 2020–2022, 2017–2018, 2015–2016",
+      "details": ""
+    },
+    {
+      "period": "2016 – 2021",
+      "body": "National & Telescope Committees",
+      "role": "Member of Argentine National Astronomy Committee (2016–2018) and Gemini Observatory NTAC–Argentina (2020–2021)",
+      "details": ""
+    }
+  ],
+  "evaluation": [
+    {
+      "category": "Grant & Career Evaluation",
+      "details": "Peer Evaluator for CONICET (Researcher Career admissions and promotions 2022–2023), SECyT–UNC (2024–2025), SECyT–UBA (Argentina), and ANID/CONICYT (Chile)."
+    },
+    {
+      "category": "Journal Referee",
+      "details": "Astronomy & Astrophysics, Monthly Notices of the Royal Astronomical Society, General Relativity and Gravitation, Foundations of Physics, and Boletín de la Asociación Argentina de Astronomía."
+    },
+    {
+      "category": "Ph.D. & Licenciatura Thesis Examination Boards",
+      "details": "Ph.D. Thesis Jury for Lic. Santiago Collazo (UNLP, 2026) and Lic. Lucas Jesús Zenocratti (UNLP, 2025); Ph.D./Licenciatura Advisory and Examination Committees for Dr. Keiko J. Fushimi (UNLP, 2021), Dr. Leonardo Leitao (UNMdP, 2017), Dr. Ezequiel Boero (FaMAF–UNC, 2017), Dr. Marcos Ramírez (FaMAF–UNC, 2012), Lic. Carolina Villalón (2012), Lic. Carolina Villarreal (2011), Lic. Ernesto Zurbriggen (2011), Dr. Dante J. Paz (2010), Dr. Heliana Luparello (2009), and Dr. Laura Sales (2004), plus Doctoral Monitoring Committees at FaMAF–UNC, Universidad de La Serena (Chile), and FCEFyN–UNSJ (2022–2026)."
+    }
+  ],
+  "visiting": [
+    {
+      "period": "June – July 2024",
+      "institution": "McWilliams Center for Cosmology / LINCC Frameworks, Carnegie Mellon University",
+      "location": "Pittsburgh, PA, USA"
+    },
+    {
+      "period": "June – July 2023",
+      "institution": "Center for Computational Astrophysics (CCA), Flatiron Institute",
+      "location": "New York, NY, USA"
+    },
+    {
+      "period": "Nov 2014; 2024 – 2026",
+      "institution": "Departamento de Astronomía / Centro de Investigaciones de Frontera, Universidad de La Serena",
+      "location": "La Serena, Chile"
+    },
+    {
+      "period": "Feb 2012; 2013 – 2014",
+      "institution": "Center for Gravitational Wave Astronomy, University of Texas at Brownsville",
+      "location": "Brownsville, TX, USA"
+    },
+    {
+      "period": "July 2001; Oct 2003",
+      "institution": "Max Planck Institute for Astrophysics (MPA)",
+      "location": "Garching, Germany"
+    },
+    {
+      "period": "Oct 2002",
+      "institution": "Department of Astronomy, Pontificia Universidad Católica de Chile",
+      "location": "Santiago, Chile"
+    },
+    {
+      "period": "April – June 2001",
+      "institution": "Department of Physics, University of Durham",
+      "location": "Durham, UK"
+    }
+  ],
+  "memberships": [
+    "International Astronomical Union (IAU) — Active Member (since 2011)",
+    "American Astronomical Society (AAS) — International Member by invitation (since 2013)",
+    "Argentine Astronomical Association (AAA) — Active Member (since 2001)",
+    "Vera C. Rubin Observatory Science Collaborations — Member with Data Rights in DESC, TVS, and ISSC",
+    "CosmoVerse Collaboration",
+    "DeepSkies Lab",
+    "Astronomers for Planet Earth"
+  ]
+}
