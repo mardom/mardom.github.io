@@ -905,7 +905,7 @@ function renderConnectSection(profile) {
         </div>
 
         <div class="contact-box">
-          <div class="contact-label">Office Telephone</div>
+          <div class="contact-label">Telephone</div>
           <div style="font-family:var(--font-mono); font-size:0.9rem;">${escapeHtml(contact.phone || '')}</div>
         </div>
 
